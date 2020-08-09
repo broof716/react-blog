@@ -1,11 +1,11 @@
 import React from 'react'
 import { MasonryPost } from './'
 
-export default function PostMasonry ({post, columns, tagsOnTop}) {
+export default function PostMasonry ({posts, columns, tagsOnTop}) {
   return (
     <section className="masonry" style={{gridTemplateColumns: `repeat(${columns}, minmax(275px, 1fr))`}}>
-      {post.map((post, index) => 
-        <MasonryPost {...{post, index, tagsOnTop, key: index}} />
+      { posts.map((post, index) =>
+        <MasonryPost  {...{post, index, tagsOnTop, key: index}} />
       )}
     </section>
   )
