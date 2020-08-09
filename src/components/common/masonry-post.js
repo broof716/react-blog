@@ -1,11 +1,7 @@
 import React from 'react'
 
-export default function  MasonryPost ({post, tagsOnTop}) {
-  const style = {backgroundImage: `url("${require(`../../assets/images/${post.image}`)}")`};
-  
+export default function MasonryPost ({post, tagsOnTop}) {
   return (
-    <a className="masonry-post overlay" style={style} href={post.link}>
-      
-    </a>
+    <div>test</div>
   )
 }
