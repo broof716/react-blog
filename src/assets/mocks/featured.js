@@ -20,13 +20,13 @@ export default [
     date: moment().format('MMMM DD, YYYY'),
     categories:['Suns'],
     link: '#',
-    image: 'azteams.png'
+    image: 'suns.png'
   },
   {
-    title: 'Arizona Cardinals',
+    title: 'Off the field',
     date: moment().format('MMMM DD, YYYY'),
-    categories:['Cardinals'],
+    categories:['Community'],
     link: '#',
-    image: 'azteams.png'
-  },
+    image: 'community.png'
+  }
 ]
